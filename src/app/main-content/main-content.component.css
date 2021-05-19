@@ -1,0 +1,275 @@
+.grid-container {
+  
+  padding-left: 65px;
+  padding-right: 65px;
+  margin: 0;
+background-color: whitesmoke;
+
+  
+}
+
+.dashboard-card {
+  position:absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+ 
+  
+}
+
+.more-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.dashboard-card-content {
+  text-align: center;
+}
+
+.listdemoBasicUsage md-divider {
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+  h4{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  h5{
+   
+    color: gray;
+  }
+
+  p{
+    color: gray;
+    font-size: small;
+    text-align: left;
+
+    
+   
+    
+  }
+
+  .mat-card-header
+  {
+    margin-top: 5px;
+  
+  }
+  
+  .content{
+    display: flex;
+   flex-direction: column;
+   margin-left: 55px;
+   align-items: flex-start;
+
+  }
+  @import url("https://fonts.googleapis.com/css?family=Krub:400,700");
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  body {
+   
+    font-family: "Krub", sans-serif;
+  }
+  
+  .card {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+   
+    border-radius: 10px;
+  
+   
+    overflow: hidden;
+  }
+  .card .ds-top {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+   
+    height: 200px;
+    width: 100%;
+
+    
+  }
+  .card .avatar-holder {
+    position: absolute;
+    margin: auto;
+    top: 60px;
+    right: 0;
+    left: 0;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    
+    background: white;
+    overflow: hidden;
+  
+  }
+  .card .avatar-holder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .card .name {
+    position: absolute;
+    margin: auto;
+    top: -60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: inherit;
+    height: 40px;
+    text-align: center;
+    animation: fadeIn 2s ease-in;
+  }
+  .card .name a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  .card .name a:hover {
+    text-decoration: underline;
+    color: gray;
+  }
+  .card .name h6 {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    width: 40px;
+  }
+  .card .button {
+    position: absolute;
+    margin: auto;
+    padding: 8px;
+    top: 20px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: inherit;
+    height: 40px;
+    text-align: center;
+ 
+   
+    outline: none;
+  }
+  .card .button a {
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    font-size: 10px;
+    transition: all 1s;
+   
+  }
+  .card .button a:hover {
+    color: white;
+    background: gray;
+  }
+  .card .ds-info {
+    position: absolute;
+    margin: auto;
+    top: 120px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: inherit;
+    height: 40px;
+    display: flex;
+  }
+  .card .ds-info .pens,
+  .card .ds-info .projects,
+  .card .ds-info .posts {
+    position: relative;
+    left: -300px;
+    width: calc(250px / 3);
+    text-align: center;
+    color: white;
+  
+  }
+  .card .ds-info .pens h6,
+  .card .ds-info .projects h6,
+  .card .ds-info .posts h6 {
+    text-transform: uppercase;
+    color: gray;
+  }
+  .card .ds-info .pens p,
+  .card .ds-info .projects p,
+  .card .ds-info .posts p {
+    font-size: 12px;
+  }
+
+  .card .ds-skill {
+    position: absolute;
+    margin: auto;
+    bottom: 50px;
+    right: 0;
+    left: 0;
+    width: 200px;
+    height: 100px;
+  
+  }
+  .card .ds-skill h3 {
+    
+    font-weight: 700;
+    
+    color: black;
+  }
+
+  .card .ds-skill p {
+    
+    margin: auto;
+    bottom: 45px;
+    color: gray;
+  }
+  .card .ds-skill .skill h6 {
+    font-weight: 400;
+    font-size: 8px;
+    letter-spacing: 0.05em;
+    margin: 4px 0;
+    color: white;
+  }
+  
+  
+  .ds-skill button{
+background-color: crimson;
+color: white;
+text-decoration: none;
+border-style: none;
+padding: 8px;
+width: 100px;
+border-radius: 5%;
+
+
+text-align: center;
+
+
+outline: none;
+}
+
+.card .ds-skill2 
+{
+  display: inline-block;
+  color: black;
+  height: auto;
+}

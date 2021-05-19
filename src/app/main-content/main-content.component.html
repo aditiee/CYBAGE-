@@ -1,0 +1,128 @@
+<div class="grid-container">
+
+  <mat-grid-list cols="2" rowHeight="500px">
+    <mat-grid-tile>
+      <mat-card class="dashboard-card ">
+
+        <mat-card-content class="dashboard-card-content">
+          <div class="card">
+            <div class="ds-top" style="background-image: url('assets/images7.jpg');"></div>
+            <div class="avatar-holder">
+              <img src="assets/images6.jpg" alt="Albert Einstein">
+            </div>
+
+
+            <div class="ds-skill">
+              <h3>Angela Omninici</h3>
+              <p>Web Designer & Web Developer</p>
+              <button>Follow</button>
+            </div>
+
+
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+
+    <mat-grid-tile [rowspan]="3">
+      <mat-card class="dashboard-card ">
+        <mat-card-content class="dashboard-card-content">
+          <mat-tab-group>
+            <mat-tab label="Activity">
+
+              <div ng-controller="AppCtrl" ng-cloak>
+
+
+
+
+                <mat-card-header class="md-no-sticky">
+
+                  <img mat-card-avatar src="assets/images.jpg" alt="">
+
+                  <h4> Nirav Joshi</h4>
+
+                  <h5>(5 minutes ago)</h5>
+
+
+                </mat-card-header>
+
+                <mat-card-content>
+                  <div class="content">
+
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi reiciendis dicta totam
+                      architecto! Tenetur, nam fugit harum officia accusantium </p>
+                    <img src="assets/image3.jpg" alt="" height="100px" width="150px">
+                  </div>
+                </mat-card-content>
+
+
+              </div>
+
+
+              <div ng-controller="AppCtrl" ng-cloak>
+
+
+
+
+                <mat-card-header class="md-no-sticky">
+
+                  <img mat-card-avatar src="assets/images2.jpg" alt="">
+
+                  <h4> Sunil Joshi</h4>
+
+                  <h5>(2 minutes ago)</h5>
+
+
+                </mat-card-header>
+
+                <mat-card-content>
+                  <div class="content">
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi reiciendis dicta totam
+                      architecto! Tenetur, nam fugit harum officia accusantium </p>
+
+
+                  </div>
+                  <button mat-raised-button color="primary" class="btn">Check Now</button>
+                </mat-card-content>
+
+
+              </div>
+
+
+              <div ng-controller="AppCtrl" ng-cloak>
+
+
+
+
+                <mat-card-header class="md-no-sticky">
+
+                  <img mat-card-avatar src="assets/images 1.jpg" alt="">
+
+                  <h4>Vijaya Bhatt </h4>
+
+                  <h5>(2 minutes ago)</h5>
+
+
+                </mat-card-header>
+
+                <mat-card-content>
+                  <div class="content">
+
+                    <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi reiciendis dicta totam
+                      architecto! Tenetur, nam fugit harum officia accusantium </p>
+                    <img src="assets/images5.jpg" alt="" height="100px" width="150px">
+                  </div>
+                </mat-card-content>
+
+
+              </div>
+            </mat-tab>
+            <mat-tab label="Profile">
+
+            </mat-tab>
+          </mat-tab-group>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
